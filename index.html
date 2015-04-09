@@ -1023,6 +1023,7 @@
 						<li><a href="/">{lang:Home}</a></li>
 						{block:HasPages}{block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}{/block:HasPages}
 						<li><a href="/archive">{lang:Archive}</a></li>
+						{block:SubmissionsEnabled}<li><a href="/ask">{SubmitLabel}</a></li>{/block:SubmissionsEnabled}
 						{block:AskEnabled}<li><a href="/ask">{AskLabel}</a></li>{/block:AskEnabled}
 					</ul>
 				</nav>
